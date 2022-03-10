@@ -4,15 +4,13 @@ export class Product {
         businessId,
         description,
         price,
-        name,
-        receiptId
+        name
     ) {
         this.categoryId = categoryId;
         this.businessId = businessId;
         this.description = description;
         this.price = price;
         this.name = name;
-        this.receiptId = receiptId;
 
     }
 };
